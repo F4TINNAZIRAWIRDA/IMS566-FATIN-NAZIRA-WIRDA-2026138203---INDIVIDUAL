@@ -1,0 +1,32 @@
+@import url('https://googleapis.com');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f3e8ff 0%, #ede9fe 100%);
+}
+
+.bg-uitm {
+    background: linear-gradient(90deg, #4a154b 0%, #6b21a8 100%) !important;
+}
+
+.text-uitm {
+    color: #4a154b !important;
+}
+
+.btn-uitm {
+    background-color: #4a154b;
+    color: #ffffff;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-uitm:hover {
+    background-color: #6b21a8;
+    color: #ffd700;
+    transform: translateY(-2px);
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+}

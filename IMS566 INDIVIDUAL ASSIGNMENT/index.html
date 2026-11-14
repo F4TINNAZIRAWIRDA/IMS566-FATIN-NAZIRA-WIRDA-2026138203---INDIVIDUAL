@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - UiTM Student e-Profile</title>
+    <link href="https://jsdelivr.net" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+    <!-- Header Banner -->
+    <div class="bg-white text-center border-bottom">
+        <img src="header.png" alt="UiTM Header" class="img-fluid" style="max-height: 120px;">
+    </div>
+
+    <!-- Login Box -->
+    <div class="container my-auto py-5">
+        <div class="row justify-content-center">
+            <div class="col-md-5">
+                <div class="card shadow-sm">
+                    <div class="card-body p-4">
+                        <h3 class="text-center fw-bold text-uitm mb-2">UiTM Student e-Profile</h3>
+                        <p class="text-center text-muted mb-4">Sign in to access student profiles</p>
+                        
+                        <form action="dashboard.html">
+                            <div class="mb-3">
+                                <label class="form-label fw-semibold">Student ID</label>
+                                <input type="text" class="form-control" placeholder="e.g. 2024123456" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label fw-semibold">Password</label>
+                                <input type="password" class="form-control" placeholder="Enter password" required>
+                            </div>
+                            <div class="d-grid">
+                                <button type="submit" class="btn btn-uitm py-2 fw-semibold">Login</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Banner + Copyright -->
+    <footer class="bg-white border-top mt-auto pt-3">
+        <div class="container text-center">
+            <img src="footer.png" alt="UiTM Footer" class="img-fluid mb-2" style="max-height: 100px;">
+        </div>
+        <div class="bg-dark text-white text-center py-2">
+            <small>&copy; 2026 Fatin Nazira Wirda | IMS566 Individual Assignment - UiTM</small>
+        </div>
+    </footer>
+
+</body>
+</html>

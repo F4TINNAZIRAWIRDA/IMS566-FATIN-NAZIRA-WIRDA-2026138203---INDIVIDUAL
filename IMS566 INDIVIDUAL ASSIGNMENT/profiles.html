@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student List - UiTM Student e-Profile</title>
+    <link href="https://jsdelivr.net" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+    <!-- Header Banner -->
+    <div class="bg-white text-center border-bottom">
+        <img src="header.png" alt="UiTM Header" class="img-fluid" style="max-height: 120px;">
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-uitm shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="dashboard.html">UiTM e-Profile</a>
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="dashboard.html">Dashboard</a>
+                <a class="nav-link active" href="profiles.html">Student List</a>
+                <a class="nav-link text-warning fw-semibold" href="index.html">Logout</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Student Table -->
+    <div class="container my-5">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h2 class="fw-bold text-uitm">UiTM Student Directory</h2>
+            <span class="badge bg-uitm px-3 py-2">5 Active Profiles</span>
+        </div>
+
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-hover align-middle">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Student ID</th>
+                                <th>Full Name</th>
+                                <th>Program</th>
+                                <th>Campus</th>
+                                <th>Status</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>2026138203</strong></td>
+                                <td><strong>Fatin Nazira Wirda</strong></td>
+                                <td>SI262</td>
+                                <td>UiTM Puncak Perdana</td>
+                                <td><span class="badge bg-success">Active</span></td>
+                                <td><a href="profile-detail.html" class="btn btn-sm btn-uitm">View Details</a></td>
+                            </tr>
+                            <tr>
+                                <td>2026881234</td>
+                                <td>Ahmad Danial bin Zulkifli</td>
+                                <td>SI262</td>
+                                <td>UiTM Puncak Perdana</td>
+                                <td><span class="badge bg-success">Active</span></td>
+                                <td><a href="profile-detail.html" class="btn btn-sm btn-outline-secondary">View Details</a></td>
+                            </tr>
+                            <tr>
+                                <td>2026994512</td>
+                                <td>Nur Aina Sofea binti Roslan</td>
+                                <td>SI260</td>
+                                <td>UiTM Rembau</td>
+                                <td><span class="badge bg-success">Active</span></td>
+                                <td><a href="profile-detail.html" class="btn btn-sm btn-outline-secondary">View Details</a></td>
+                            </tr>
+                            <tr>
+                                <td>2026773190</td>
+                                <td>Muhammad Haziq bin Ismail</td>
+                                <td>SI262</td>
+                                <td>UiTM Puncak Perdana</td>
+                                <td><span class="badge bg-success">Active</span></td>
+                                <td><a href="profile-detail.html" class="btn btn-sm btn-outline-secondary">View Details</a></td>
+                            </tr>
+                            <tr>
+                                <td>2026665021</td>
+                                <td>Siti Sarah binti Kamarudin</td>
+                                <td>SI261</td>
+                                <td>UiTM Segamat</td>
+                                <td><span class="badge bg-warning text-dark">Internship</span></td>
+                                <td><a href="profile-detail.html" class="btn btn-sm btn-outline-secondary">View Details</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Banner + Copyright -->
+    <footer class="bg-white border-top mt-auto pt-3">
+        <div class="container text-center">
+            <img src="footer.png" alt="UiTM Footer" class="img-fluid mb-2" style="max-height: 100px;">
+        </div>
+        <div class="bg-dark text-white text-center py-2">
+            <small>&copy; 2026 Fatin Nazira Wirda | IMS566 Individual Assignment - UiTM</small>
+        </div>
+    </footer>
+
+</body>
+</html>
+

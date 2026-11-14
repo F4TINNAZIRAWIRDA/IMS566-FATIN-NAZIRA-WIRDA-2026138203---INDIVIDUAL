@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - UiTM Student e-Profile</title>
+    <link href="https://jsdelivr.net" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+    <!-- Header Banner -->
+    <div class="bg-white text-center border-bottom">
+        <img src="header.png" alt="UiTM Header" class="img-fluid" style="max-height: 120px;">
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-uitm shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="dashboard.html">UiTM e-Profile</a>
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link active" href="dashboard.html">Dashboard</a>
+                <a class="nav-link" href="profiles.html">Student List</a>
+                <a class="nav-link text-warning fw-semibold" href="index.html">Logout</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container my-5">
+        <h2 class="fw-bold text-uitm mb-4">Welcome back, Fatin Nazira Wirda!</h2>
+        
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card shadow-sm border-start border-primary border-4">
+                    <div class="card-body">
+                        <h6 class="text-muted">Total Registered Profiles</h6>
+                        <h2 class="fw-bold text-uitm">5 Students</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm border-start border-success border-4">
+                    <div class="card-body">
+                        <h6 class="text-muted">Current Session</h6>
+                        <h2 class="fw-bold text-uitm">Oct 2026</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm border-start border-warning border-4">
+                    <div class="card-body">
+                        <h6 class="text-muted">Faculty</h6>
+                        <h2 class="fw-bold text-uitm">Fakulti Sains Maklumat</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card shadow-sm mt-5">
+            <div class="card-body p-4">
+                <h5 class="fw-bold text-uitm">Quick Actions</h5>
+                <p class="text-muted">Browse the directory of UiTM student e-profiles below.</p>
+                <a href="profiles.html" class="btn btn-uitm">View Student Profiles</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Banner + Copyright -->
+    <footer class="bg-white border-top mt-auto pt-3">
+        <div class="container text-center">
+            <img src="footer.png" alt="UiTM Footer" class="img-fluid mb-2" style="max-height: 100px;">
+        </div>
+        <div class="bg-dark text-white text-center py-2">
+            <small>&copy; 2026 Fatin Nazira Wirda | IMS566 Individual Assignment - UiTM</small>
+        </div>
+    </footer>
+
+</body>
+</html>
+

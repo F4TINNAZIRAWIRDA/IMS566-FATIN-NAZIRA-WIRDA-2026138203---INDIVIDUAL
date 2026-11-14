@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student e-Profile - UiTM Student Portal</title>
+    <link href="https://jsdelivr.net" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+    <!-- Header Banner -->
+    <div class="bg-white text-center border-bottom">
+        <img src="header.png" alt="UiTM Header" class="img-fluid" style="max-height: 120px;">
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-uitm shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="dashboard.html">UiTM e-Profile</a>
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="dashboard.html">Dashboard</a>
+                <a class="nav-link active" href="profiles.html">Student List</a>
+                <a class="nav-link text-warning fw-semibold" href="index.html">Logout</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Profile Content -->
+    <div class="container my-5">
+        <a href="profiles.html" class="btn btn-outline-secondary btn-sm mb-4">&larr; Back to Student List</a>
+
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card shadow-sm text-center p-4">
+                    <img src="https://ui-avatars.com" alt="Student Photo" class="rounded-circle mx-auto mb-3 border border-4 border-warning shadow-sm" width="140" height="140">
+                    <h4 class="fw-bold text-uitm mb-1">Fatin Nazira Wirda</h4>
+                    <p class="text-muted mb-2">2026138203</p>
+                    <div><span class="badge bg-success px-3 py-2">Active Student</span></div>
+                    <hr>
+                    <div class="text-start small">
+                        <p class="mb-2"><strong>Email:</strong> 2026138203@student.uitm.edu.my</p>
+                        <p class="mb-0"><strong>Campus:</strong> UiTM Puncak Perdana</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-8">
+                <div class="card shadow-sm mb-4">
+                    <div class="card-header bg-white fw-bold text-uitm py-3">
+                        Academic Information
+                    </div>
+                    <div class="card-body">
+                        <table class="table table-borderless mb-0">
+                            <tr>
+                                <th width="35%" class="text-muted">Faculty</th>
+                                <td class="fw-semibold">Fakulti Sains Maklumat</td>
+                            </tr>
+                            <tr>
+                                <th class="text-muted">Program</th>
+                                <td>Bachelor of Information Science (Hons.) Information Systems Management (CDIM262)</td>
+                            </tr>
+                            <tr>
+                                <th class="text-muted">Current Semester</th>
+                                <td>Semester 4 (Session Oct 2026)</td>
+                            </tr>
+                            <tr>
+                                <th class="text-muted">Academic Advisor</th>
+                                <td>Dr. Norazlina binti Ahmad</td>
+                            </tr>
+                            <tr>
+                                <th class="text-muted">Current CGPA</th>
+                                <td><span class="badge bg-uitm fs-6">3.75</span></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="card shadow-sm">
+                    <div class="card-header bg-white fw-bold text-uitm py-3">
+                        Skills & Co-Curriculum Involvement
+                    </div>
+                    <div class="card-body">
+                        <h6 class="fw-semibold mb-2">Technical Skills</h6>
+                        <div class="mb-3">
+                            <span class="badge bg-secondary me-1 p-2">Database Design & Administration</span>
+                            <span class="badge bg-secondary me-1 p-2">Data Cleaning & Visualization</span>
+                            <span class="badge bg-secondary me-1 p-2">SQL (MySQL / phpMyAdmin)</span>
+                            <span class="badge bg-secondary me-1 p-2">Wireframing & Prototyping (Figma / Canva)</span>
+                        </div>
+                        <h6 class="fw-semibold mb-2">Clubs & Activities</h6>
+                        <ul class="mb-0 text-muted">
+                            <li>Persatuan Mahasiswa Hadhari UiTM Puncak Perdana (PMHPP)</li>
+                            <li>Association of Information Management Systems (AIMS)</li>
+                            <li>Communication for Behavioural Impact (COMBI)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Banner + Copyright -->
+    <footer class="bg-white border-top mt-auto pt-3">
+        <div class="container text-center">
+            <img src="footer.png" alt="UiTM Footer" class="img-fluid mb-2" style="max-height: 100px;">
+        </div>
+        <div class="bg-dark text-white text-center py-2">
+            <small>&copy; 2026 Fatin Nazira Wirda | IMS566 Individual Assignment - UiTM</small>
+        </div>
+    </footer>
+
+</body>
+</html>
+
